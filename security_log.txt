@@ -1,0 +1,12 @@
+[2025-09-19 07:56:34] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\assets\script-loader-packages.min.php
+[2025-09-19 07:56:34] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\assets\script-loader-packages.php
+[2025-09-19 07:56:35] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\blocks.php
+[2025-09-19 07:56:39] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\class-wp-oembed.php
+[2025-09-19 07:56:40] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\comment-template.php
+[2025-09-19 07:56:44] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\formatting.php
+[2025-09-19 07:56:47] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\media.php
+[2025-09-19 07:57:02] File modification detected: C:\xampp\htdocs\wordpress/wp-includes\version.php
+[2025-09-19 07:57:03] File modification detected: C:\xampp\htdocs\wordpress/wp-admin\about.php
+[2025-09-19 07:57:29] File modification detected: C:\xampp\htdocs\wordpress/wp-admin\includes\revision.php
+[2025-09-19 07:57:30] File modification detected: C:\xampp\htdocs\wordpress/wp-admin\includes\schema.php
+[2025-09-19 07:57:30] File modification detected: C:\xampp\htdocs\wordpress/wp-admin\includes\upgrade.php

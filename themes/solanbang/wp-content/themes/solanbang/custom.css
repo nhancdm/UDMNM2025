@@ -1,0 +1,222 @@
+body {
+    margin: 0; /* Loại bỏ margin mặc định */
+}
+
+#page{
+    position: relative;
+    background-color: white;
+    margin-top: 0;
+}
+
+.entry-content {
+    margin: 0;
+}
+.logo-area,
+.nav-area {
+    transition: transform 0.4s ease, font-size 0.4s ease;
+    transform: translateY(0);
+}
+
+.site-header.scrolled .logo-area {
+    transform: translateY(-10px); /* dịch lên 10px */
+}
+
+.site-header.scrolled .nav-area {
+    transform: translateY(-8px); /* menu dịch lên nhẹ hơn */
+}
+
+/* Style the header */
+body:not(.rtl) .elementor-80 .elementor-element.elementor-element-e7d4131 {
+    background-size: cover;
+    color: black;
+    position: fixed;
+    padding: 10px 0;
+    top: 0;
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Ensure it stays above other content */
+    height: 100px; /* Adjust based on image height */
+    border-bottom: 1px solid white; /* đường trắng bên dưới */
+    transition: height 0.4s ease, background-color 0.4s ease;
+    /* Tạo bóng đen mờ dần ở trên bằng gradient */
+    background-image: linear-gradient(to bottom, rgba(0, 0.7, 0.7, 0.7), transparent);
+    
+}
+
+/* Logo và text có hiệu ứng mượt */
+.site-header,
+.site-header .custom-logo-link img,
+.site-header .site-title,
+.site-header .site-description,
+.site-header .container,
+.site-header .row {
+    transition: all 0.4s ease;
+}
+
+/* Class khi cuộn xuống */
+body:not(.rtl) .elementor-80 .elementor-element.elementor-element-e7d4131.scrolled {
+    background-image: none;  /* Bỏ gradient bóng */
+    background: rgba(20, 80, 112, 0.39);
+    backdrop-filter: blur(3px);
+    height: 80px !important;
+}
+
+.site-header .custom-logo-link img {
+    max-height: 60px;
+    width: 200px;
+}
+
+/* Style the container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the site branding (logo area) */
+.site-branding {
+    display: flex;
+    align-items: center;
+}
+
+.site-branding .custom-logo-link {
+    display: block;
+}
+
+.site-branding .site-title {
+    margin: 0;
+    font-size: 24px;
+    color: #00aaff; /* Blue color for "sol" text */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-branding .site-description {
+    margin: 0;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Style the navigation */
+.main-navigation {
+    display: flex;
+}
+
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-navigation ul li {
+    margin-left: 20px;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+    margin-top: 10px;
+}
+
+.main-navigation .sub-menu {
+    margin-top: 35px;
+}
+
+.main-navigation .sub-menu li a {
+    color: blue;
+}
+
+.main-navigation ul li a:hover,
+.main-navigation ul li.current-menu-item a {color: #ff6200; /* Orange color for active/hover */
+}
+
+/* Style the booking button */
+.main-navigation .booking-button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.main-navigation .booking-button:hover {
+    background-color: #e65c00;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+/* Hide the menu toggle button on desktop */
+.menu-toggle {
+    display: none;
+}
+
+/* Add flags and spacing */
+.site-header .flags {
+    display: flex;
+    align-items: center;
+}
+
+.site-header .flags img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-navigation ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .main-navigation ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation ul {
+        display: none;
+    }
+
+    .main-navigation.toggled ul {
+        display: flex;
+    }
+}
+
+.ast-custom-button {
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #f75f00;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: white;
+    transition: 0.3s ease;
+}
+.ast-custom-button:hover {
+    background: #953c05;
+    color: white;
+}
+

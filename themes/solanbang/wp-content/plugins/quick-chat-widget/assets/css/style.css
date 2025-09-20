@@ -1,0 +1,114 @@
+.quick-chat-widget {
+    position: fixed;
+    right: 30px;
+    top: 61%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.quick-chat-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.quick-chat-button {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #5865f200;
+    color: rgb(13, 255, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: visible;
+    transition: background-color 0.3s ease;
+}
+.quick-chat-button:hover {
+    scale: 0.9;
+}
+
+/* Chữ ẩn ban đầu */
+.quick-chat-button span {
+    position: absolute;
+    right: 60px;
+    white-space: nowrap;
+    background-color: #5865f200;
+    padding: 10px 15px;
+    border-radius: 25px;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Khi hover: chữ trượt từ phải sang trái */
+.quick-chat-button:hover span {
+    opacity: 1;
+    transform: translateX(0);
+    color: #00ff08;
+}
+
+/* Icon không di chuyển */
+.quick-chat-button i {
+    font-size: 25px !important;
+    z-index: 2;
+    transition: none;
+}
+
+/* Màu riêng cho từng dịch vụ */
+/* .quick-chat-button.messenger {
+    background-color: #0084ff;
+}
+
+.quick-chat-button.messenger span {
+    background-color: #0084ff;
+}
+
+.quick-chat-button.phone {
+    background-color: #00c853;
+}
+
+.quick-chat-button.phone span {
+    background-color: #00c853;
+}
+
+.quick-chat-button.zalo {
+    background-color: #0068ff;
+}
+
+.quick-chat-button.zalo span {
+    background-color: #0068ff;
+}
+
+.quick-chat-button.whatsapp {
+    background-color: #25d366;
+}
+
+.quick-chat-button.whatsapp span {
+    background-color: #25d366;
+} */
+
+.quick-chat-arrow {
+  left: 15px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    background-color: #1e62aa;
+    color: white;
+    border: none;
+    align-items: ;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+
+.quick-chat-arrow:hover {
+    opacity: 0.9;
+}

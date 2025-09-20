@@ -1,0 +1,227 @@
+# Translation of Plugins - Site Mailer &#8211; SMTP Replacement, Email API Deliverability &amp; Email Log - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - Site Mailer &#8211; SMTP Replacement, Email API Deliverability &amp; Email Log - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-04 00:06:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - Site Mailer &#8211; SMTP Replacement, Email API Deliverability &amp; Email Log - Stable (latest release)\n"
+
+#: modules/settings/module.php:232
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer custom domain DNS records"
+msgstr "Bản ghi DNS miền tùy chỉnh của Site Mailer"
+
+#: modules/settings/module.php:228
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer Sender Mail Prefix"
+msgstr "Tiền tố thư gửi của Site Mailer"
+
+#: modules/settings/module.php:224
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer Sender Domain"
+msgstr "Miền gửi của Site Mailer"
+
+#: modules/settings/module.php:220
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer Reply Email"
+msgstr "Email trả lời của Site Mailer"
+
+#: modules/settings/module.php:216
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer From Email"
+msgstr "Email gửi từ của Site Mailer"
+
+#: modules/settings/module.php:212
+msgctxt "Descrption for API usage. no need to translate"
+msgid "Site Mailer Close Post Connect Modal"
+msgstr "Modal đóng Site Mailer sau khi kết nối"
+
+#: modules/suppressions/rest/add-suppression.php:51
+msgid "Email already in suppressions list"
+msgstr "Email đã có trong danh sách chặn"
+
+#: modules/core/components/quota-exhausted-banner.php:70
+msgid "Upgrade Now"
+msgstr "Nâng cấp ngay"
+
+#: modules/core/components/quota-exhausted-banner.php:60
+msgid "Oh no! Site Mailer has reached the maximum email limit."
+msgstr "Ôi không! Site Mailer đã đạt đến giới hạn email tối đa."
+
+#: modules/core/components/quota-exhausted-banner.php:49
+msgid "No additional emails will be sent, unless you upgrade your plan."
+msgstr "Sẽ không gửi thêm email nào nữa, trừ khi bạn nâng cấp gói của mình."
+
+#: modules/core/components/quota-exhausted-banner.php:42
+msgid "No additional emails will be sent until the monthly quota renews, unless you upgrade your plan."
+msgstr "Sẽ không gửi thêm email nào cho đến khi dung lượng hàng tháng được gia hạn, trừ khi bạn nâng cấp gói của mình."
+
+#: modules/core/components/not-connected.php:45
+msgid "Connect now"
+msgstr "Kết nối ngay"
+
+#: modules/core/components/not-connected.php:39
+msgid "Site Mailer is not connected right now. Connect your account to ensure your site reliably sends emails."
+msgstr "Site Mailer hiện chưa được kết nối. Kết nối tài khoản của bạn để đảm bảo trang web của bạn gửi email một cách đáng tin cậy."
+
+#: modules/core/components/conflicts.php:55
+msgid "Deactivate All"
+msgstr "Vô hiệu hóa tất cả"
+
+#: modules/core/components/conflicts.php:35
+msgid "Using more than one may result in unexpected behavior."
+msgstr "Sử dụng nhiều hơn một có thể dẫn đến hành vi không mong muốn."
+
+#: modules/core/components/conflicts.php:28
+msgid "Site Mailer has detected multiple active SMTP plugins."
+msgstr "Site Mailer đã phát hiện nhiều plugin SMTP đang hoạt động."
+
+#. Author URI of the plugin
+#: site-mailer.php
+msgid "https://go.elementor.com/author-url-sm/"
+msgstr "https://go.elementor.com/author-url-sm/"
+
+#: modules/settings/module.php:112 assets/build/admin.js:331
+msgid "Fix mismatched URL"
+msgstr "Sửa URL không khớp"
+
+#: modules/settings/module.php:105
+msgid "This is most likely due to a change in the domain URL of your site (including HTTP/SSL migration)."
+msgstr "Điều này rất có thể là do thay đổi URL miền của trang web của bạn (bao gồm cả việc di chuyển HTTP/SSL)."
+
+#: modules/settings/module.php:98
+msgid "Your license key does not match your current domain, causing a mismatch."
+msgstr "Khóa giấy phép của bạn không khớp với miền hiện tại của bạn, gây ra sự không khớp."
+
+#: modules/settings/components/settings-pointer.php:33
+msgid "Take me there"
+msgstr "Chuyển tôi đến đó"
+
+#: modules/settings/components/settings-pointer.php:28
+msgid "Go to Site Mailer to send test email and set your domain"
+msgstr "Truy cập Site Mailer để gửi email thử nghiệm và thiết lập miền của bạn"
+
+#: modules/settings/components/settings-pointer.php:27
+#: modules/settings/module.php:77 modules/settings/module.php:78
+#: assets/build/admin.js:249 assets/build/admin.js:464
+msgid "Site Mailer"
+msgstr "Site Mailer"
+
+#: modules/mailer/classes/mail-handler.php:93
+msgid "Timestamp:"
+msgstr "Thời gian:"
+
+#: modules/mailer/classes/mail-handler.php:92
+msgid "Sent By:"
+msgstr "Đã gửi bởi:"
+
+#: modules/mailer/classes/mail-handler.php:91
+msgid "The Site Mailer Team"
+msgstr "Nhóm Site Mailer"
+
+#: modules/mailer/classes/mail-handler.php:90
+msgid "Thank you for using Site Mailer. We are here to make sure your emails actually get delivered!"
+msgstr "Cảm ơn bạn đã sử dụng Site Mailer. Chúng tôi ở đây để đảm bảo email của bạn thực sự được gửi đi!"
+
+#: modules/mailer/classes/mail-handler.php:89
+msgid "Congrats, the test email was sent successfully!"
+msgstr "Chúc mừng, email thử nghiệm đã được gửi thành công!"
+
+#: modules/mailer/classes/mail-handler.php:86
+#: modules/mailer/classes/mail-handler.php:98
+msgid "Site Mailer Email Test"
+msgstr "Thử nghiệm Email Site Mailer"
+
+#: modules/mailer/classes/caller-source.php:131
+msgid "Core"
+msgstr "Cốt lõi"
+
+#: modules/mailer/classes/caller-source.php:58
+msgid "Unknown"
+msgstr "Không xác định"
+
+#: modules/core/module.php:49 assets/build/admin.js:239
+#: assets/build/admin.js:331
+msgid "Connect"
+msgstr "Kết nối"
+
+#: modules/core/module.php:43 assets/build/admin.js:302
+msgid "Upgrade"
+msgstr "Nâng cấp"
+
+#: modules/core/module.php:35
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: modules/connect/rest/switch-domain.php:53
+msgid "Domain updated!"
+msgstr "Miền đã được cập nhật!"
+
+#: modules/connect/rest/switch-domain.php:46
+msgid "Client ID not found"
+msgstr "Không tìm thấy ID khách hàng"
+
+#: modules/connect/rest/authorize.php:69
+msgid "Connected domain mismatch"
+msgstr "Miền đã kết nối không khớp"
+
+#: modules/connect/rest/authorize.php:50
+msgid "You are already connected"
+msgstr "Bạn đã được kết nối"
+
+#: modules/connect/classes/service.php:217
+msgid "JWT class not found"
+msgstr "Không tìm thấy lớp JWT"
+
+#: modules/connect/classes/service.php:206
+msgid "Missing JWKS URL"
+msgstr "Thiếu URL JWKS"
+
+#: classes/rest/route.php:376
+msgid "Invalid nonce"
+msgstr "Nonce không hợp lệ"
+
+#: classes/rest/route.php:308
+msgid "No route was found matching the URL and request method"
+msgstr "Không tìm thấy tuyến đường nào khớp với URL và phương thức yêu cầu"
+
+#: classes/rest/route.php:255 classes/rest/route.php:391
+msgid "You do not have sufficient permissions to access this data."
+msgstr "Bạn không có đủ quyền để truy cập dữ liệu này."
+
+#: classes/rest/route.php:248
+msgid "Internal server error"
+msgstr "Lỗi máy chủ nội bộ"
+
+#: classes/rest/route.php:241
+msgid "Both `message` and `code` keys must be provided"
+msgstr "Cả hai khóa `message` và `code` đều phải được cung cấp"
+
+#: classes/module-base.php:131 classes/module-base.php:142
+msgid "Something went wrong."
+msgstr "Có lỗi xảy ra."
+
+#. Author of the plugin
+#: site-mailer.php
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#. Description of the plugin
+#: site-mailer.php
+msgid "Effortlessly manage transactional emails with Site Mailer. High deliverability, logs and statistics, and no SMTP plugins needed."
+msgstr "Quản lý email giao dịch dễ dàng với Site Mailer. Khả năng gửi thư cao, nhật ký và thống kê, không cần plugin SMTP."
+
+#. Plugin Name of the plugin
+#: site-mailer.php
+msgid "Site Mailer - SMTP Replacement, Email API Deliverability & Email Log"
+msgstr "Site Mailer - Thay thế SMTP, Khả năng gửi thư API Email & Nhật ký Email"
+
+#. Plugin URI of the plugin
+#: site-mailer.php
+msgid "https://elementor.com/"
+msgstr "https://elementor.com/"

@@ -1,0 +1,26 @@
+#membership-checkout {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#membership-checkout h2 {
+    margin-bottom: 10px;
+}
+
+#checkout-button {
+    padding: 10px 20px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#checkout-button:hover {
+    background: #005177;
+}

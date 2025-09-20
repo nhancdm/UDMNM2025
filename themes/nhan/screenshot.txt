@@ -1,0 +1,25 @@
+NHAN THEME SCREENSHOT PLACEHOLDER
+
+To complete your theme, you should create a screenshot.png file (1200x900 pixels) 
+that shows a preview of your theme. This image will be displayed in the WordPress 
+admin area under Appearance > Themes.
+
+Recommended screenshot specifications:
+- File name: screenshot.png
+- Dimensions: 1200 x 900 pixels
+- File format: PNG
+- File size: Under 1MB
+
+The screenshot should show:
+- Header with site title and navigation
+- Main content area with sample post
+- Sidebar with widgets
+- Footer area
+
+You can create this screenshot by:
+1. Setting up your theme with sample content
+2. Taking a screenshot of the homepage
+3. Cropping it to 1200x900 pixels
+4. Saving as screenshot.png in the theme root directory
+
+This will make your theme look professional in the WordPress theme selector.

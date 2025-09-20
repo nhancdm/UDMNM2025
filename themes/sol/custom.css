@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#masthead {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
+.navbar-nav .dropdown-menu a {
+    color: blue !important;
+}
+
+.custom-logo-link img {
+    width: 100%;
+    height: 100px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: orange !important;
+}
+
+.header-right .btn {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    background: orangered;
+}
+
+.header-right .btn:hover {
+    background: rgb(157, 45, 5);
+}
+
+@media (max-width: 768px) {
+    #masthead {
+        padding: 10px 20px;
+    }
+}
+
+.site-branding img.custom-logo {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.main-navigation ul.menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.main-navigation ul.menu>li>a {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    transition: color 0.3s ease;
+    position: relative;
+    padding: 6px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-navigation ul.menu>li>a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: orange;
+    transition: width 0.3s ease;
+}
+
+.main-navigation ul.menu>li>a:hover {
+    color: orange;
+}
+
+.main-navigation ul.menu>li>a:hover::after {
+    width: 100%;
+}
+
+.main-navigation li {
+    position: relative;
+}
+
+.main-navigation ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    color: blue;
+    border-radius: 8px;
+    min-width: 220px;
+    padding: 10px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    flex-direction: column;
+}
+
+.main-navigation li:hover>ul.sub-menu {
+    display: flex;
+}
+
+.main-navigation ul.sub-menu li {
+    padding: 10px 24px;
+    white-space: nowrap;
+}
+
+.main-navigation ul.sub-menu li>a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    display: block;
+}
+
+.main-navigation ul.sub-menu li>a:hover {
+    color: orange;
+    transform: translateX(4px);
+}
+
+.col-md-3 button {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: orangered;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+//* Bọc fields theo grid 2 hàng 3 cột */
+.elementor-form .elementor-form-fields-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/* Căn giữa toàn bộ form */
+
+.elementor-form {
+    width: 100%;
+}
+
+
+/* Định dạng input */
+
+.elementor-form input[type="text"],
+.elementor-form input[type="email"],
+.elementor-form input[type="number"],
+.elementor-form input[type="tel"],
+.elementor-form input[type="date"] {
+    padding: 12px 15px;
+    border: 1px solid #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.elementor-form button {
+    background-color: #144F6F;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    height: 100%;
+}
+
+.elementor-form button:hover {
+    background-color: #04326a;
+}
+
+@media (max-width: 768px) {
+    .elementor-form .elementor-form-fields-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
