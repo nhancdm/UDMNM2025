@@ -173,8 +173,15 @@ add_action('after_setup_theme', 'nhan_setup');
  * Enqueue scripts and styles
  */
 function nhan_scripts() {
-    // Enqueue theme stylesheet
+    // Enqueue base theme stylesheet (style.css)
     wp_enqueue_style('nhan-style', get_stylesheet_uri(), array(), wp_get_theme()->get('Version'));
+
+    // Enqueue additional main.css from /css directory
+    $main_css_rel_path = '/css/main.css';
+    $main_css_path = get_stylesheet_directory() . $main_css_rel_path;
+    $main_css_uri  = get_stylesheet_directory_uri() . $main_css_rel_path;
+    $main_css_ver  = file_exists($main_css_path) ? filemtime($main_css_path) : wp_get_theme()->get('Version');
+    wp_enqueue_style('nhan-main', $main_css_uri, array('nhan-style'), $main_css_ver);
 
     // Enqueue Font Awesome
     wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css', array(), '6.0.0');
